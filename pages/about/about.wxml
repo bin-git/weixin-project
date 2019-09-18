@@ -1,0 +1,10 @@
+<view class='container'>
+  <text class='names'>关于我</text>
+  <image src="/images/img.jpg" class='about-img'></image>
+  <view class="about-links">
+    <text>我</text>
+    <navigator url="/pages/tuijian/tuijian" hover-class="navigator-hover" open-type='switchTab' class='linkColr' >每周推荐一部</navigator>
+    <text>电影</text>
+  </view>
+  <text>我是个初学者</text>
+</view>

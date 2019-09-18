@@ -1,0 +1,28 @@
+<!-- banner -->
+<swiper class='tuijian-banner-box' autoplay="true" indicator-dots="true" previous-margin="50rpx" next-margin="50rpx" current="{{crunterIndex}}">
+  <swiper-item class='tuijian-item' wx:for="{{shuju}}" wx:for-index="idx" wx:for-item="item">
+    <view class='tuijian-banner-carder'>
+      <image src="{{item.imagesPath}}" class='tuijain-swip-img'></image>
+      <view class='tuijain-textr'>
+        <text>片名{{idx+1}}：{{item.name}}</text>
+        <text>点评：{{item.content}}</text>
+        <text wx:if="{{item.isshowhiden}}" class='tui'>强烈推荐</text>
+        <icon class='icon' bindtap='f0' wx:if="{{idx < (shuju.length-1)}}">返回推荐</icon>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
+
+
+
+
+<view style="padding-top:20rpx;">
+  <view class='tuijian_box' wx:for="{{shuju}}" wx:for-index="idx" wx:for-item="item">
+    <image src="{{item.imagesPath}}" class='tuijain-img'></image>
+    <view class='tuijain-textr'>
+      <text>片名{{idx+1}}：{{item.name}}</text>
+      <text>点评：{{item.content}}</text>
+      <text wx:if="{{item.isshowhiden}}" class='tui'>强烈推荐</text>
+    </view>
+  </view>
+</view>

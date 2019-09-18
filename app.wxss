@@ -1,0 +1,13 @@
+/**app.wxss**/
+.container{
+  background:rgb(53, 207, 118);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.fl{float: left;}
+.fr{float:right;}

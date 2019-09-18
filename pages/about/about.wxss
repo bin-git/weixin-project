@@ -1,0 +1,16 @@
+.about-img{ 
+  width:375rpx;
+  height:375rpx;
+  border-radius: 50%;
+}
+
+.names{ font-weight: bold; font-size: 60rpx;
+ }
+
+
+ .linkColr{color:blue}
+.navigator-hover{
+   color:red;
+ }
+
+ .about-links navigator{display:inline;}

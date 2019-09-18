@@ -1,0 +1,66 @@
+.tuijian-tit1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.tuijian_box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15rpx;
+  padding: 0 20rpx;
+}
+
+.tuijain-img {
+  width: 200rpx;
+  height: 250rpx;
+}
+
+.tuijain-textr {
+  display: flex;
+  flex-direction: column;
+  width: 550rpx;
+  padding-left: 10rpx;
+  height: 250rpx;
+  padding-top: 10rpx;
+}
+
+.tui {
+  color: red;
+}
+
+.tuijian-banner-box{ 
+  height:700rpx;
+}
+
+
+.tuijian-item{
+  position: relative;
+}
+.tuijian-item .icon{
+  position: absolute;
+  right:20rpx;
+  top:20rpx;
+  font-size:30rpx;
+  color:red;
+}
+
+.tuijain-swip-img{
+  width:100%;
+  height:700rpx;
+}
+
+.tuijian-banner-carder{ 
+  margin:0 40rpx;
+}
+
+
+
+
+
+
+
+
+
+
+

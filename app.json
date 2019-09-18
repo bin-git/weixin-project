@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/tuijian/tuijian",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/about/about",
+        "text": "本周推荐",
+        "iconPath": "images/con1.png",
+        "selectedIconPath": "images/con1h.png"
+      },
+      {
+        "pagePath": "pages/tuijian/tuijian",
+        "text": "我的推荐",
+        "iconPath": "images/con2.png",
+        "selectedIconPath": "images/con2h.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#00f"
+  }
+}
